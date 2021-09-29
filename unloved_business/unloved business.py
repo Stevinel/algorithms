@@ -16,7 +16,6 @@ def get_node_by_index(node, index):
 def solution(node, idx):
     if idx == 0:
         return node.next_item
-    print(node)
     previous_node = get_node_by_index(node, idx-1)
     next_node = get_node_by_index(node, idx+1)
     previous_node.next_item = next_node
