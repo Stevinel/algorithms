@@ -15,7 +15,7 @@ class Solution:
 
 # class Solution:
 #     """Runtime: 41ms"""
-#     def removeElement(self, nums: List[int], val: int) -> int:
+#     def remove_element(self, nums: List[int], val: int) -> int:
 #         while val in nums:
 #             nums.remove(val)
 #         return len(nums)
