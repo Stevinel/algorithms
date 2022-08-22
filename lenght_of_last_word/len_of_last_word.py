@@ -1,12 +1,12 @@
 class Solution:
     """Runtime: 59ms"""
-    def lengthOfLastWord(self, s: str) -> int:
+    def length_of_last_word(self, s: str) -> int:
         return len(s.split()[-1])
 
 
 # class Solution:
 #     """Runtime: 53ms"""
-#     def lengthOfLastWord(self, s: str) -> int:
+#     def length_of_last_word(self, s: str) -> int:
 #         count = 0
 #         switch = False
 
@@ -22,4 +22,4 @@ class Solution:
 if __name__ == '__main__':
     string = str(input())
     s = Solution()
-    print(s.lengthOfLastWord(string))
+    print(s.length_of_last_word(string))
