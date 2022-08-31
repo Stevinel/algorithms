@@ -24,14 +24,12 @@ class Solution:
 #         """
 #         Do not return anything, modify nums1 in-place instead.
 #         """
-
-#         tmp_nums1 = nums1[:m]  # copy the non zero elements of nums1
+#         tmp_nums1 = nums1[:m]
 
 #         p1 = 0
 #         p2 = 0
 
 #         for p in range(n + m):
-
 #             if p2 >= n or (p1 < m and tmp_nums1[p1] <= nums2[p2]):
 #                 nums1[p] = tmp_nums1[p1] 
 #                 p1 += 1
