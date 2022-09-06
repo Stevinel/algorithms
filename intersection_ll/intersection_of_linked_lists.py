@@ -9,7 +9,7 @@ class ListNode:
 
 class Solution:
     """Runtime: 320ms"""
-    def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> Optional[ListNode]:
+    def get_intersection_node(self, headA: ListNode, headB: ListNode) -> Optional[ListNode]:
         node_set = set()
 
         while headA: 
