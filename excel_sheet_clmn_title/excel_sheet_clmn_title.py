@@ -1,4 +1,5 @@
 class Solution:
+    """Runtime: 52ms"""
     def convert_to_title(self, column_number: int) -> str:
         alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
         alph_lenght = 26
